@@ -52,172 +52,303 @@
     <!-- Main -->
     <div id="main">
 
-        <!-- Featured Post -->
-        <article class="post featured">
-            <header class="major">
-                <h2><a href="https://github.com/WYENVY/FinancialTracker">Financial Tracker App<br/>
-                </a></h2>
-                <p>Developed a cross-platform financial tracking application as part of a collaborative group project,
-                    using Scrum and Agile methodologies. The app helps users manage income, expenses, and budgets
-                    through intuitive dashboards and real-time data insights. My contributions included designing core
-                    features, integrating Firebase for secure data storage, and ensuring a clean, user-friendly
-                    interface.</p>
-            </header>
-            <a href="https://github.com/WYENVY/FinancialTracker" class="image main"><img
-                    src="images/combined_screens.png" alt=""/></a>
-            <ul class="actions special">
-                <li><a href="https://github.com/WYENVY/FinancialTracker" class="button large">View Project</a></li>
-            </ul>
-        </article>
+```html
+<!-- Featured Post -->
+<article class="post featured">
+    <header class="major">
+        <h2><a href="https://github.com/esegvich/Hybrid-Identity-Lab-Active-Directory-Entra-ID-Okta">
+            Northstar Technologies — Hybrid Identity Lab<br/>
+        </a></h2>
+        <p>
+            Designed and implemented a hybrid identity environment integrating
+            on-premises Active Directory with Microsoft Entra ID and Okta.
+            Created and managed user identities within organizational units,
+            synchronized users and attributes such as department, title, and
+            company across identity platforms, and configured Okta as the
+            downstream identity provider. The lab demonstrates identity
+            synchronization, user lifecycle management, directory integration,
+            and centralized identity administration across a hybrid environment.
+        </p>
+    </header>
 
-        <!-- Posts -->
-        <section class="posts">
-            <article>
-                <header>
-                    <h2><a href="https://github.com/jackkatahdin/seggogelwards-lr">Raspberry Pi RC Car<br/>
-                    </a></h2>
-                </header>
-                <a href="https://github.com/jackkatahdin/seggogelwards-lr" class="image fit"><img src="images/rcCar.jpg"
-                                                                                                  alt=""/></a>
-                <p>Collaborated in a team to design, build, and program a Raspberry Pi–powered remote-controlled car.
-                    The car could be operated via computers and an Xbox controller, and included a mounted camera that
-                    streamed a live video feed to our screens.</p>
-                <ul class="actions special">
-                    <li><a href="https://github.com/jackkatahdin/seggogelwards-lr" class="button">View Project</a></li>
-                </ul>
-            </article>
-            <article>
-                <header>
-                    <h2><a href="https://github.com/esegvich/PasswordVault">PASSWORD VAULT<br/>
-                    </a></h2>
-                </header>
-                <a href="https://github.com/esegvich/PasswordVault" class="image fit"><img
-                        src="images/PasswordVault.gif" alt=""/></a>
-                <p>Password vault is a program that integrates C++ for encryption and Python + Flask for hashing, UI,
-                    and API checks. Users can log in, store their credentials, encrypt and decrypt them, and check for
-                    breaches through the Have I Been Pwned API. All encryption and decryption occur locally in C++ using
-                    the Crypto++ library. Passwords are encrypted with AES-256-CBC, and a random initialization vector
-                    (IV) is generated per entry. The vault stores Base64(IV + ciphertext) in CSV form. Decryption
-                    reconstructs the plaintext using the stored IV and a key derived from the user’s master password via
-                    PBKDF2-HMAC-SHA256 (100 000 iterations).</p>
-                <ul class="actions special">
-                    <li><a href="https://github.com/esegvich/PasswordVault" class="button">View Project</a></li>
-                </ul>
-            </article>
-            <article>
-                <header>
-                    <h2><a href="https://github.com/esegvich/Splunk-Log-Analysis.git">SPLUNK LOG ANALYSIS<br/>
-                    </a></h2>
-                </header>
-                <a href="https://github.com/esegvich/Splunk-Log-Analysis.git" class="image fit"><img
-                        src="images/Splunk.png" alt=""/></a>
-                <p>A multi-phase Splunk analysis project focused on real-world SOC workflows. I ingested and normalized
-                    Zeek-style SSH and HTTP logs to detect brute-force attempts, unauthorized access patterns,
-                    suspicious web activity, and anomalous authentication trends. Through custom SPL queries,
-                    dashboards, and event-type correlation, I identified high-risk hosts, malicious user-agents, and
-                    potential exfiltration attempts. This project demonstrates hands-on experience with SIEM operations,
-                    log enrichment, and cyber threat investigation techniques used in modern blue-team environments.</p>
-                <ul class="actions special">
-                    <li><a href="https://github.com/esegvich/Splunk-Log-Analysis.git" class="button">View Project</a>
-                    </li>
-                </ul>
-            </article>
-            <article>
-                <header>
-                    <h2><a href="https://github.com/esegvich/pi-hole-home-network.git">PI HOLE HOME NETWORK<br/>
-                    </a></h2>
-                </header>
-                <a href="https://github.com/esegvich/pi-hole-home-network.git" class="image fit"><img
-                        src="images/PiHoleDash.png" alt=""/></a>
-                <p>Deployed Pi-hole on a Raspberry Pi as a network-wide DNS sinkhole to block ads, trackers,
-                    and malicious domains across all devices on the home network. Configured the router to
-                    distribute the Pi's IP as the primary DNS server via DHCP, ensuring automatic coverage
-                    for every connected device without manual configuration. Monitored query traffic and
-                    blocked domain statistics through Pi-hole's web dashboard. Currently expanding the project
-                    with a self-hosted VPN to enable secure remote access to the admin panel.</p>
-                <ul class="actions special">
-                    <li><a href="https://github.com/esegvich/pi-hole-home-network.git" class="button">View Project</a>
-                    </li>
-                </ul>
-            </article>
-            <article>
-                <header>
-                    <h2><a href="https://github.com/esegvich/uvm-dm-dashboard.git">UVM RALLYTHON DASHBOARD<br/>
-                    </a></h2>
-                </header>
-                <a href="https://github.com/esegvich/uvm-dm-dashboard.git" class="image fit"><img
-                        src="images/Dashboard-display.gif" alt=""/></a>
-                <p>A real-time donation tracking dashboard built for UVM Dance Marathon's "Rallython" fundraising event.
-                    Developed with React and deployed via GitHub Pages, the dashboard features a custom under-the-sea
-                    theme
-                    with live donation totals, participant leaderboards, and animated milestone displays — keeping
-                    energy
-                    high and donors engaged throughout the event.</p>
-                <ul class="actions special">
-                    <li><a href="https://github.com/esegvich/uvm-dm-dashboard.git" class="button">View Project</a></li>
-                </ul>
-            </article>
-            <article>
-                <header>
-                    <h2><a href="https://github.com/esegvich/NetworkTrafficMonitor.git">WIRESHARK NETWORK ANALYSIS &
-                        SOCIAL ENGINEERING LAB<br/>
-                    </a></h2>
-                </header>
-                <a href="https://github.com/esegvich/NetworkTrafficMonitor.git" class="image fit"><img
-                        src="images/credential-capture.png" alt=""/></a>
-                <p>Conducted a simulated penetration test and social engineering attack as part of a cybersecurity
-                    lab, taking on the role of an ethical hacker targeting a fictional real estate executive. Using
-                    Wireshark on an unsecured public network, captured plaintext HTTP traffic to extract login
-                    credentials in real time — then demonstrated how HTTPS encryption prevents the same attack.
-                    Also simulated a phishing campaign using a forged bank login page to harvest credentials
-                    server-side, illustrating how encryption alone doesn't stop a determined attacker. Documented
-                    three actionable defenses: limiting social media exposure, recognizing phishing indicators,
-                    and using a VPN on public networks.</p>
-                <ul class="actions special">
-                    <li><a href="https://github.com/esegvich/NetworkTrafficMonitor.git" class="button">View Project</a>
-                    </li>
-                </ul>
-            </article>
-            <article>
-                <header>
-                    <h2><a href="https://github.com/esegvich/Library.git">LIBRARY DATABASE SYSTEM<br/>
-                    </a></h2>
-                </header>
-                <a href="https://github.com/esegvich/Library.git" class="image fit"><img
-                        src="images/LibraryGif.gif" alt=""/></a>
-                <p>Designed and built a full-stack library management system, starting as a command-line
-            application and later extending it into a Flask web app for a richer front end. Modeled
-            a five-table relational schema (books, authors, users, borrowings, transactions) and
-            populated it with a real-world dataset of 11,000+ books, cleaned and adapted to fit the
-            schema. Implemented user authentication, book search and checkout, a transactions and
-            balance system, and a stats dashboard with Chart.js visualizations covering top
-            checked-out books and ratings trends. The web app features a dashboard, searchable
-            catalog, loan management, account activity, and an editable user profile.</p>
-                <ul class="actions special">
-                    <li><a href="https://github.com/esegvich/Library.git" class="button">View Project</a>
-                    </li>
-                </ul>
-            </article>
-			<article>
-                <header>
-                    <h2><a href="https://github.com/esegvich/Hybrid-Identity-Lab-Active-Directory-Entra-ID-Okta">NORTHSTAR TECHNOLOGIES — HYBRID IDENTITY LAB<br/>
-                    </a></h2>
-                </header>
-                <a href="https://github.com/esegvich/Hybrid-Identity-Lab-Active-Directory-Entra-ID-Okta" class="image fit"><img
-                        src="images/AD-Project-Image.png" alt=""/></a>
-                <p>Designed and implemented a hybrid identity environment integrating on-premises Active Directory with Microsoft Entra ID and Okta. Created and managed user identities within organizational units, synchronized users and attributes such as department, title, and company across identity platforms, and configured Okta as the downstream identity provider. The lab demonstrates identity synchronization, user lifecycle management, directory integration, and centralized identity administration across a hybrid environment.</p>
-                <ul class="actions special">
-                    <li><a href="https://github.com/esegvich/Hybrid-Identity-Lab-Active-Directory-Entra-ID-Okta" class="button">View Project</a>
-                    </li>
-                </ul>
-            </article>
-        </section>
+    <a href="https://github.com/esegvich/Hybrid-Identity-Lab-Active-Directory-Entra-ID-Okta"
+       class="image main">
+        <img src="images/AD-Project-Image.png" alt="Hybrid Identity Lab"/>
+    </a>
+
+    <ul class="actions special">
+        <li>
+            <a href="https://github.com/esegvich/Hybrid-Identity-Lab-Active-Directory-Entra-ID-Okta"
+               class="button large">View Project</a>
+        </li>
+    </ul>
+</article>
+
+<!-- Posts -->
+<section class="posts">
+
+    <!-- Splunk Log Analysis -->
+    <article>
+        <header>
+            <h2><a href="https://github.com/esegvich/Splunk-Log-Analysis.git">
+                SPLUNK LOG ANALYSIS<br/>
+            </a></h2>
+        </header>
+
+        <a href="https://github.com/esegvich/Splunk-Log-Analysis.git"
+           class="image fit">
+            <img src="images/Splunk.png" alt="Splunk Log Analysis"/>
+        </a>
+
+        <p>
+            A multi-phase Splunk analysis project focused on real-world SOC workflows.
+            I ingested and normalized Zeek-style SSH and HTTP logs to detect brute-force
+            attempts, unauthorized access patterns, suspicious web activity, and anomalous
+            authentication trends. Through custom SPL queries, dashboards, and event-type
+            correlation, I identified high-risk hosts, malicious user-agents, and potential
+            exfiltration attempts. This project demonstrates hands-on experience with SIEM
+            operations, log enrichment, and cyber threat investigation techniques used in
+            modern blue-team environments.
+        </p>
+
+        <ul class="actions special">
+            <li>
+                <a href="https://github.com/esegvich/Splunk-Log-Analysis.git"
+                   class="button">View Project</a>
+            </li>
+        </ul>
+    </article>
+
+    <!-- Password Vault -->
+    <article>
+        <header>
+            <h2><a href="https://github.com/esegvich/PasswordVault">
+                PASSWORD VAULT<br/>
+            </a></h2>
+        </header>
+
+        <a href="https://github.com/esegvich/PasswordVault"
+           class="image fit">
+            <img src="images/PasswordVault.gif" alt="Password Vault"/>
+        </a>
+
+        <p>
+            Password vault is a program that integrates C++ for encryption and Python +
+            Flask for hashing, UI, and API checks. Users can log in, store their credentials,
+            encrypt and decrypt them, and check for breaches through the Have I Been Pwned API.
+            All encryption and decryption occur locally in C++ using the Crypto++ library.
+            Passwords are encrypted with AES-256-CBC, and a random initialization vector (IV)
+            is generated per entry. The vault stores Base64(IV + ciphertext) in CSV form.
+            Decryption reconstructs the plaintext using the stored IV and a key derived from
+            the user’s master password via PBKDF2-HMAC-SHA256 (100 000 iterations).
+        </p>
+
+        <ul class="actions special">
+            <li>
+                <a href="https://github.com/esegvich/PasswordVault"
+                   class="button">View Project</a>
+            </li>
+        </ul>
+    </article>
+
+    <!-- Pi-hole Home Network -->
+    <article>
+        <header>
+            <h2><a href="https://github.com/esegvich/pi-hole-home-network.git">
+                PI HOLE HOME NETWORK<br/>
+            </a></h2>
+        </header>
+
+        <a href="https://github.com/esegvich/pi-hole-home-network.git"
+           class="image fit">
+            <img src="images/PiHoleDash.png" alt="Pi-hole Home Network"/>
+        </a>
+
+        <p>
+            Deployed Pi-hole on a Raspberry Pi as a network-wide DNS sinkhole to block ads,
+            trackers, and malicious domains across all devices on the home network.
+            Configured the router to distribute the Pi's IP as the primary DNS server via
+            DHCP, ensuring automatic coverage for every connected device without manual
+            configuration. Monitored query traffic and blocked domain statistics through
+            Pi-hole's web dashboard. Currently expanding the project with a self-hosted VPN
+            to enable secure remote access to the admin panel.
+        </p>
+
+        <ul class="actions special">
+            <li>
+                <a href="https://github.com/esegvich/pi-hole-home-network.git"
+                   class="button">View Project</a>
+            </li>
+        </ul>
+    </article>
+
+    <!-- Wireshark Network Analysis -->
+    <article>
+        <header>
+            <h2><a href="https://github.com/esegvich/NetworkTrafficMonitor.git">
+                WIRESHARK NETWORK ANALYSIS &amp; SOCIAL ENGINEERING LAB<br/>
+            </a></h2>
+        </header>
+
+        <a href="https://github.com/esegvich/NetworkTrafficMonitor.git"
+           class="image fit">
+            <img src="images/credential-capture.png"
+                 alt="Wireshark Network Analysis"/>
+        </a>
+
+        <p>
+            Conducted a simulated penetration test and social engineering attack as part of
+            a cybersecurity lab, taking on the role of an ethical hacker targeting a fictional
+            real estate executive. Using Wireshark on an unsecured public network, captured
+            plaintext HTTP traffic to extract login credentials in real time — then demonstrated
+            how HTTPS encryption prevents the same attack. Also simulated a phishing campaign
+            using a forged bank login page to harvest credentials server-side, illustrating how
+            encryption alone doesn't stop a determined attacker. Documented three actionable
+            defenses: limiting social media exposure, recognizing phishing indicators, and
+            using a VPN on public networks.
+        </p>
+
+        <ul class="actions special">
+            <li>
+                <a href="https://github.com/esegvich/NetworkTrafficMonitor.git"
+                   class="button">View Project</a>
+            </li>
+        </ul>
+    </article>
+
+    <!-- Financial Tracker -->
+    <article>
+        <header>
+            <h2><a href="https://github.com/WYENVY/FinancialTracker">
+                FINANCIAL TRACKER APP<br/>
+            </a></h2>
+        </header>
+
+        <a href="https://github.com/WYENVY/FinancialTracker"
+           class="image fit">
+            <img src="images/combined_screens.png"
+                 alt="Financial Tracker App"/>
+        </a>
+
+        <p>
+            Developed a cross-platform financial tracking application as part of a
+            collaborative group project, using Scrum and Agile methodologies. The app
+            helps users manage income, expenses, and budgets through intuitive dashboards
+            and real-time data insights. My contributions included designing core features,
+            integrating Firebase for secure data storage, and ensuring a clean,
+            user-friendly interface.
+        </p>
+
+        <ul class="actions special">
+            <li>
+                <a href="https://github.com/WYENVY/FinancialTracker"
+                   class="button">View Project</a>
+            </li>
+        </ul>
+    </article>
+
+    <!-- Library Database -->
+    <article>
+        <header>
+            <h2><a href="https://github.com/esegvich/Library.git">
+                LIBRARY DATABASE SYSTEM<br/>
+            </a></h2>
+        </header>
+
+        <a href="https://github.com/esegvich/Library.git"
+           class="image fit">
+            <img src="images/LibraryGif.gif"
+                 alt="Library Database System"/>
+        </a>
+
+        <p>
+            Designed and built a full-stack library management system, starting as a
+            command-line application and later extending it into a Flask web app for a
+            richer front end. Modeled a five-table relational schema (books, authors,
+            users, borrowings, transactions) and populated it with a real-world dataset
+            of 11,000+ books, cleaned and adapted to fit the schema. Implemented user
+            authentication, book search and checkout, a transactions and balance system,
+            and a stats dashboard with Chart.js visualizations covering top checked-out
+            books and ratings trends. The web app features a dashboard, searchable catalog,
+            loan management, account activity, and an editable user profile.
+        </p>
+
+        <ul class="actions special">
+            <li>
+                <a href="https://github.com/esegvich/Library.git"
+                   class="button">View Project</a>
+            </li>
+        </ul>
+    </article>
+
+    <!-- UVM Rallython Dashboard -->
+    <article>
+        <header>
+            <h2><a href="https://github.com/esegvich/uvm-dm-dashboard.git">
+                UVM RALLYTHON DASHBOARD<br/>
+            </a></h2>
+        </header>
+
+        <a href="https://github.com/esegvich/uvm-dm-dashboard.git"
+           class="image fit">
+            <img src="images/Dashboard-display.gif"
+                 alt="UVM Rallython Dashboard"/>
+        </a>
+
+        <p>
+            A real-time donation tracking dashboard built for UVM Dance Marathon's
+            "Rallython" fundraising event. Developed with React and deployed via GitHub
+            Pages, the dashboard features a custom under-the-sea theme with live donation
+            totals, participant leaderboards, and animated milestone displays — keeping
+            energy high and donors engaged throughout the event.
+        </p>
+
+        <ul class="actions special">
+            <li>
+                <a href="https://github.com/esegvich/uvm-dm-dashboard.git"
+                   class="button">View Project</a>
+            </li>
+        </ul>
+    </article>
+
+    <!-- Raspberry Pi RC Car -->
+    <article>
+        <header>
+            <h2><a href="https://github.com/jackkatahdin/seggogelwards-lr">
+                RASPBERRY PI RC CAR<br/>
+            </a></h2>
+        </header>
+
+        <a href="https://github.com/jackkatahdin/seggogelwards-lr"
+           class="image fit">
+            <img src="images/rcCar.jpg"
+                 alt="Raspberry Pi RC Car"/>
+        </a>
+
+        <p>
+            Collaborated in a team to design, build, and program a Raspberry Pi-powered
+            remote-controlled car. The car could be operated via computers and an Xbox
+            controller, and included a mounted camera that streamed a live video feed
+            to our screens.
+        </p>
+
+        <ul class="actions special">
+            <li>
+                <a href="https://github.com/jackkatahdin/seggogelwards-lr"
+                   class="button">View Project</a>
+            </li>
+        </ul>
+    </article>
+
+</section>
+```
+
 
 
         <section class="split contact">
             <section class="alt">
                 <h3>Location</h3>
-                <p>Burlington, VT<br/>
+                <p>Chicago, IL<br/>
                 </p>
             </section>
             <section>
